@@ -9,6 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// prompt user to enter a word to hash
+		// additional comments go here -AK
 		System.out.println("Hello user!");
 		String word = "myRealPassword";
 		System.out.println("Please enter a super secret word: " + word);
