@@ -14,6 +14,7 @@ public class Main {
 		//hope this works
 		//let's try again...
 		//one more time
+		//something here
 		System.out.println("Hello user!");
 		String word = "myRealPassword";
 		System.out.println("Please enter a super secret word: " + word);
