@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myjavaapp:
+    image: aaknox/password-hash:1.0
+  sonarqube:
+    image: sonarqube:latest
+    ports:
+      - 9001:9001
