@@ -15,6 +15,7 @@ public class Main {
 		//let's try again...
 		//one more time
 		//something here
+		//now doing code analysis successfully through SonarCloud
 		System.out.println("Hello user!");
 		String word = "myRealPassword";
 		System.out.println("Please enter a super secret word: " + word);
