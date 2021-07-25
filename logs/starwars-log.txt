@@ -1,0 +1,7 @@
+2021-07-24 18:58:33 INFO  CharacterController:34 - CharacterController: User is making a POST request to add character to DB.
+2021-07-24 18:58:33 INFO  CharacterController:35 - ANOTHER TEST: Character [characterId=0, name=Luke Skywalker, imageURL=https://swapi.dev/api/people/1/, birthYear=19 BBY, homeworld=https://swapi.dev/api/planets/1/, gender=Male, height=172, mass=77, creationDate=null, lastModified=null]
+2021-07-24 18:58:33 INFO  CharacterServiceImpl:36 - TEST: Character [characterId=0, name=Luke Skywalker, imageURL=https://swapi.dev/api/people/1/, birthYear=19 BBY, homeworld=https://swapi.dev/api/planets/1/, gender=Male, height=172, mass=77, creationDate=null, lastModified=null]
+2021-07-24 18:58:33 INFO  CharacterServiceImpl:37 - CharacterService: Now trying to save character into DB...
+2021-07-24 18:58:33 INFO  CharacterServiceImpl:50 - CharacterService: character being saved is: Character [characterId=0, name=Luke Skywalker, imageURL=https://swapi.dev/api/people/1/, birthYear=19 BBY, homeworld=https://swapi.dev/api/planets/1/, gender=Male, height=172, mass=77, creationDate=2021-07-24T18:58:33.370361700, lastModified=2021-07-24T18:58:33.370361700]
+2021-07-24 18:58:55 INFO  CharacterController:42 - CharacterController: User is making a GET request to retrieve characters from DB.
+2021-07-24 18:58:55 INFO  CharacterServiceImpl:24 - CharacterService: retrieving characters from DB...
