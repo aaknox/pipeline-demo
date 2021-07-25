@@ -32,8 +32,9 @@ public class CharacterController {
 	@PostMapping(path="/create", consumes= {MediaType.APPLICATION_JSON_VALUE})
 	public ResponseEntity<ClientMessage> createNewCharacter(@RequestBody Character character) {
 		log.info("CharacterController: User is making a POST request to add character to DB.");
-		log.info("ANOTHER TEST: " + character.toString());
+		log.info("CharacterController: Character retrieved from client side - " + character.toString());
 		ClientMessage body = characterService.saveCharacter(character) ? SUCCESSFULLY_CREATED : CREATION_FAILED;
+		log.info("CharacterController: createNewCharacter request has been completed.");
 		return ResponseEntity.status(HttpStatus.CREATED).body(body);
 	}
 	
@@ -41,6 +42,7 @@ public class CharacterController {
 	public ResponseEntity<List<Character>> viewAllCharacters() {
 		log.info("CharacterController: User is making a GET request to retrieve characters from DB.");
 		List<Character> characterList = characterService.getAllCharacters();
+		log.info("CharacterController: Character list has been retrieved. List size: " + characterList.size() + ".");
 		return ResponseEntity.ok(characterList);
 	}
 }
