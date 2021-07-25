@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 import javax.persistence.*;
 
+// SW Character Model
 @Entity
 @Table(name="characters")
 public class Character {
